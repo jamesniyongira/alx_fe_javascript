@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#quoteDisplay {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+#quoteDisplay p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#quoteDisplay em {
+    color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+select {
+    padding: 10px;
+    margin: 5px;
+    width: 220px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#quoteForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#quoteForm input, #quoteForm button {
+    margin: 5px;
+}
+
+#fileActions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fileActions input, #fileActions button {
+    margin: 5px;
+}
